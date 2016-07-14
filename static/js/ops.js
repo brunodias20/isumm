@@ -35,3 +35,7 @@ $(document).ready(function(){
 $(function() {
      $("#datePicker").datetimepicker({locale: 'pt-br', format: 'DD/MM/YYYY'});
 });
+
+$(document).ready(function(){
+  $('.dd').nestable({ /* config options */ });
+});
